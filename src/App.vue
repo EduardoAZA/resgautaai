@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+    <Header/>
   <RouterView />
 </template>
 
@@ -9,7 +9,7 @@ import Header from './components/Header.vue'
 export default{ 
   components: {
     Header
-  }
+  },
 }
 </script>
 
