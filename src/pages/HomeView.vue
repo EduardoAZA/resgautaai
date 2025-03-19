@@ -21,7 +21,7 @@
   <div class="mt-15 flex flex-col items-center justify-center">
     <h1 class="text-3xl font-bold text-center text-green-800">Como podemos ajudar</h1>
 
-    <div class="flex md:flex-row justify-center flex-col mt-20 gap-12">
+    <div class="flex md:flex-row justify-center flex-col mt-20 mb-20 gap-12">
       <CardHome icon="pi pi-search" title="Animais Perdidos" subtitle="Ajudamos a encontrar animas perdidos e reunir famílias. Cadastre seu animal ou ajude a encontrar um pet perdido."/>
       <CardHome icon="pi pi-heart" title="Adoção de Animais" subtitle="Encontre seu novo melhor amigo. Temos diversos animais esperando por um lar amoroso e responsável."/>
       <CardHome icon="pi pi-money-bill" title="Apoio a ONGs" subtitle="Ajude instituições que cuidam de animais abandonados com doações, voluntariado ou apadrinhamento."/>
@@ -51,12 +51,39 @@
     <CardOng icon="pi pi-heart" title="Ajude Agora" description="Ajude nossa causa para salvar diversos animais que precisam da sua ajuda." />
   </div>
 
-  <div class="bg-green-600 p-5 text-center">
-    <h1>Junte-se a Nossa Causa</h1>
-    <p>Cada ajuda faz diferença. Seja voluntário, doe ou adote - há muitas maneiras de contribuir.</p>
-    <div>
+  <div class="bg-green-600 p- text-center space-y-6 pb-20 pt-20">
+    <h1 class="text-3xl text-white font-bold">Junte-se a Nossa Causa</h1>
+    <p class="text-lg text-white">Cada ajuda faz diferença. Seja voluntário, doe ou adote - há muitas maneiras de contribuir.</p>
+    <div class="flex items-center justify-center gap-5">
       <Button label="Quero ajudar" />
       <Button label="Cadastrar Animal" />
+    </div>
+  </div>
+
+  <div class="bg-green-800 p-5 pt-10 flex flex-col gap-6">
+    <div class="flex flex-col gap-2">
+      <h1 class="text-white font-bold">Sobre nós</h1>
+      <p class="text-green-200">Trabalhamos para melhorar a vida dos animais através de adoção responsável, busca de animais perdidos e apoio a ONGs.</p>
+    </div>
+    <div class="flex flex-col gap-2">
+      <h1 class="text-white font-bold">Links rápidos</h1>
+      <ul class="text-green-200">
+        <li>Adotar</li>
+        <li>Animais Perdidos</li>
+        <li>Apoiar ONGs</li>
+        <li>Voluntariado</li>
+      </ul>
+    </div>
+    <div class="flex flex-col gap-2">
+      <h1 class="text-white font-bold">Contato</h1>
+      <ul class="text-green-200">
+        <li>contato@ajudaanimais.org</li>
+        <li>(11) 99999-9999</li>
+        <li>Curitiba, PR</li>
+      </ul>
+    </div>
+    <div>
+      
     </div>
   </div>
 </template>
